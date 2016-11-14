@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         clear_data.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                // Do some action to refresh data.
+                // Do some action to clear data.
                 // Toast.makeText(MainActivity.this, toast_clear, Toast.LENGTH_SHORT).show();
                 clear_database();
                 refresh_database();
